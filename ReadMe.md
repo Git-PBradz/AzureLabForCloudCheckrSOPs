@@ -6,4 +6,4 @@ unattached external IP
 empty Network Security group
 no tagging
 
-<img src="https://aka.ms/deploytoazurebutton"/>
+![Deploy to Azure](https://aka.ms/deploytoazurebutton)>
