@@ -124,8 +124,7 @@
                         "caching": "ReadWrite",
                         "writeAcceleratorEnabled": false,
                         "managedDisk": {
-                            "storageAccountType": "Standard_LRS",
-                            "id": "[resourceId('Microsoft.Compute/disks', concat(parameters('virtualMachines_ULinuxVM_name')))]"
+                            "storageAccountType": "Standard_LRS"
                         },
                         "diskSizeGB": 30
                     },
