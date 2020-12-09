@@ -125,7 +125,7 @@
                         "writeAcceleratorEnabled": false,
                         "managedDisk": {
                             "storageAccountType": "Standard_LRS",
-                            "id": "[resourceId('Microsoft.Compute/disks', concat(parameters('virtualMachines_ULinuxVM_name'), '_OsDisk_1_3d5a081f69c342ae8275af93c830c748'))]"
+                            "id": "[resourceId('Microsoft.Compute/disks', concat(parameters('virtualMachines_ULinuxVM_name')))]"
                         },
                         "diskSizeGB": 30
                     },
